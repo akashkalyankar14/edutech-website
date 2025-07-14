@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Details</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .product-details {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      font-family: Arial, sans-serif;
+    }
+
+    .product-details img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .product-details h2 {
+      color: #004080;
+    }
+
+    .product-details p {
+      color: #444;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .product-details button {
+      padding: 0.5rem 1rem;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .product-details button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center; color: turquoise;">Product Details</h1>
+  </header>
+
+  <main>
+    <div id="product-container" class="product-details">
+      <!-- JS will inject product here -->
+      <p>Loading...</p>
+    </div>
+  </main>
+
+  <footer>
+    <p style="text-align:center; margin-top:2rem;">&copy; 2025 Robotics eCommerce & EdTech</p>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>
